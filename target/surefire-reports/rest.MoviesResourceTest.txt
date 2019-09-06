@@ -1,0 +1,39 @@
+-------------------------------------------------------------------------------
+Test set: rest.MoviesResourceTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 6.544 s <<< FAILURE! - in rest.MoviesResourceTest
+testDummyMsg  Time elapsed: 2.434 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at rest.MoviesResourceTest.testDummyMsg(MoviesResourceTest.java:97)
+
+testCount  Time elapsed: 0.087 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at rest.MoviesResourceTest.testCount(MoviesResourceTest.java:107)
+
+testGetMovieByName  Time elapsed: 0.176 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at rest.MoviesResourceTest.testGetMovieByName(MoviesResourceTest.java:129)
+
+testGetAll  Time elapsed: 0.125 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at rest.MoviesResourceTest.testGetAll(MoviesResourceTest.java:120)
+
+testServerIsUp  Time elapsed: 0.093 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at rest.MoviesResourceTest.testServerIsUp(MoviesResourceTest.java:87)
+
